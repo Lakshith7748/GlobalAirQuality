@@ -65,7 +65,6 @@ Our analysis focuses on answering the following core data mining questions:
 ---
 ## 👨‍💻 Team Members  
 
-[Achuta Lakshith](https://github.com/Lakshith7748) | [Sai Praneeth Sharma](https://github.com/USERNAME2) | [ Geethika](https://github.com/heidi04aldidi)
+[Achuta Lakshith](https://github.com/Lakshith7748) | [Sai Praneeth Sharma](https://github.com/SHARMA1525) | [ Geethika](https://github.com/heidi04aldidi)
 
-Thank you for exploring our project!
-Feel free to star the repository if you find it useful.
+Thank you for exploring our project! Feel free to star the repository if you find it useful.
