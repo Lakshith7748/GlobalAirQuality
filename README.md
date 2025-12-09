@@ -1,70 +1,82 @@
-# Global Air Quality and Pollution Trends  
-*A Data Mining Project using Global Air Pollution Dataset*
+# 🌍 Global Air Quality and Pollution Trends  
+*A Data Mining Project using Global Air Pollution Datasets*
 
-## Project Overview  
-Air pollution is one of the most critical global public health challenges. This project explores how air quality varies across regions, time, climate, and socioeconomic conditions. Using data from several resources, we perform extensive data mining and exploratory analysis to uncover hidden trends, correlations, and insights about global air quality.
+## 📌 Project Overview  
+Air pollution is one of the most critical global public health challenges.  
+This project explores how air quality varies across regions, time, climate, and socioeconomic conditions.  
+Using multiple datasets, we perform extensive data mining and exploratory analysis to uncover hidden patterns, correlations, and insights.
 
-Our goal is to understand pollution patterns, identify high-risk regions, and analyze the factors influencing air quality across the world. This project aims to **analyze global air quality patterns** and answer key exploratory questions by mining and visualizing large datasets.
+The primary goal is to understand pollution behavior, identify high-risk regions, and analyze factors influencing air quality worldwide. This includes answering key exploratory questions through data cleaning, visualization, statistical analysis, and machine learning.
 
 ---
 
 ## 📂 Datasets Used  
 
-### **1. Global Air Pollution Data**  
-- Contains measurements of pollutants such as **PM2.5, PM10, NO2, SO2, CO, O3**  
+### **1. Global Air Pollution Data**
+- Measurements of pollutants such as **PM2.5, PM10, NO2, SO2, CO, O3**
 - Covers thousands of cities across multiple countries
 
-### **2. World Bank – Air Quality & Socioeconomic Indicators**  
-- PM2.5 exposure data  
+### **2. World Bank – Air Quality & Socioeconomic Indicators**
+- PM2.5 exposure data
 - GDP per capita  
-- Urban population (%), population density  
-- Health indicators
+- Urban population %, population density  
+- Public health indicators
 
-### **3. US EPA PM2.5 Monitoring Data**  
-- Contains hourly PM2.5 measurements from U.S. EPA air quality monitoring stations.
-- Includes detailed location and site metadata such as state, county, latitude, longitude, and local site name.
-- Provides pollutant information, monitoring method details, and associated air quality indicators (e.g., AQI).
+### **3. US EPA PM2.5 Monitoring Data**
+- Hourly and daily PM2.5 readings from U.S. EPA monitoring stations
+- Includes state, county, latitude, longitude, and monitoring site metadata
+- Contains pollutant details, monitoring methods, and AQI values
 
-### **4. PM25- Exposure-Worldbank Dataset**  
-- Contains country-level PM2.5 exposure data from the World Bank
-- Includes annual values for each country
-- PM2.5 exposure measured as population-weighted average concentration (µg/m³)
-  
-We merge these datasets according to the necessity, to explore relationships between pollution, geography, and development.
+### **4. PM2.5 Exposure – World Bank Dataset**
+- Country-level PM2.5 exposure data
+- Annual values for each country
+- Measured as population-weighted average concentration (µg/m³)
+
+We merge datasets where necessary to explore relationships between pollution, geography, health, and economic development.
 
 ---
 
-## Exploratory Questions  
-Our analysis focuses on answering the following core data mining questions:
+## ❓ Exploratory Questions  
+
+Our analysis focuses on answering:
 
 1. **Which countries/cities have the highest and lowest average pollution levels?**
-2. **How do different pollutants (PM2.5, PM10, NO2, CO, O3) correlate with each other?**
-3. **What is the relationship between GDP per capita and air pollution levels?**
-4. **Are there seasonal pollution variations (e.g., winter spikes, summer dips)?** 
+2. **How do pollutants (PM2.5, PM10, NO2, CO, O3) correlate?**
+3. **What is the relationship between GDP per capita and pollution levels?**
+4. **Do seasonal variations exist (e.g., winter spikes, summer dips)?**
 5. **How has air quality changed globally and regionally over the last 20 years?**
-6. **Volatility Analysis of AQI**
+6. **How volatile is AQI across different locations?**
+
 ---
 
-## Tech Stack & Dependencies  
+## 🛠️ Tech Stack & Dependencies  
 
-### **Programming Languages**
+### **Programming Language**
 - Python
 
 ### **Libraries & Tools**
-- `pandas` – data cleaning & manipulation  
-- `numpy` – numerical analysis  
-- `matplotlib` / `seaborn` – visualization  
+- `pandas` – data cleaning and manipulation  
+- `numpy` – numerical operations  
+- `matplotlib` / `seaborn` – visualizations  
 - `plotly` – interactive charts  
-- `scikit-learn` – clustering & correlations  
-- `requests` – fetching API data  
+- `scikit-learn` – clustering & regression  
+- `requests` – API data fetching  
 
 ### **Optional Tools**
 - GitHub for version control  
-- Google Colab notebooks for execution  
+- Google Colab for notebook execution  
 
 ---
-## 👨‍💻 Team Members  
 
-[Achuta Lakshith](https://github.com/Lakshith7748) | [Sai Praneeth Sharma](https://github.com/SHARMA1525) | [ Geethika](https://github.com/heidi04aldidi)
+## 👥 Team Members  
 
-Thank you for exploring our project! Feel free to star the repository if you find it useful.
+| Name | GitHub |
+|---|---|
+| Achuta Lakshith | https://github.com/Lakshith7748 |
+| Sai Praneeth Sharma | https://github.com/SHARMA1525 |
+| Geethika | https://github.com/heidi04aldidi |
+
+---
+
+Thank you for exploring our project!  
+If you find it helpful, please consider starring the repository.
